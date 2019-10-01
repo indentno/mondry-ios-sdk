@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary               = "Mondry chatbot SDK for Android"
   s.homepage              = "https://www.mondry.ai"
   s.author                = { "YOU" => "ai@sempro.no" }
-  s.source 	              = { :git => "https://github.com/sempro/mondry-ios-sdk/Sempro.framework", :tag =>"1.0.0" }
+  s.source 	              = { :git => "git@github.com:sempro/mondry-ios-sdk.git", :tag =>"1.0.0" }
   s.license               = { :type => "Commercial", :text => "https://datahub.sempro.ai/license" }
   s.source_files          = "Sempro.framework/Headers/Sempro.h", "Sempro.framework/Headers/MONSettings.h", "Sempro.framework/Headers/MONUser.h", "Sempro.framework/Headers/MONConversation.h", "Sempro.framework/Headers/MONMessage.h", "Sempro.framework/Headers/MONMessageAction.h", "Sempro.framework/Headers/MONConversationActivity.h", "Sempro.framework/Headers/MONCoordinates.h"
   s.preserve_paths        = "Sempro.framework/*"
