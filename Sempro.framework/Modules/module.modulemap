@@ -1,0 +1,6 @@
+framework module Sempro {
+  umbrella header "Sempro.h"
+
+  export *
+  module * { export * }
+}
